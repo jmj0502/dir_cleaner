@@ -1,0 +1,15 @@
+[package]
+name = "dir_cleaner"
+version = "0.1.0"
+edition = "2021"
+description = "A simple command line utility that will allow you to identify duplicated files and delete them if necessary."
+license = "MIT OR Apache-2.0"
+authors = ["Martin Juarez <juarezmachadojorgemartin@gmail.com>"]
+repository = "https://github.com/jmj0502/dir_cleaner.git"
+categories = ["command-line-utilities"]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.19"
